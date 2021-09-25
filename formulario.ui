@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>410</width>
+    <height>531</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QDialog{
+	background-color: white;
+	border: none;
+	border-radius: 10px;	
+	
+	background-color: black;
+}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color: black;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Nome:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>110</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: none;
+	border: 1px solid rgb(34, 34, 34);
+	
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 16px;
+
+	padding-left: 10px;
+}
+QLineEdit:hover{
+	border: 1px solid rgb(0, 120, 215);
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>180</y>
+     <width>291</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+	border: none;
+	border: 1px solid rgb(34, 34, 34);
+	
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 16px;
+
+	padding-left: 10px;
+}
+QLineEdit:hover{
+	border: 1px solid rgb(0, 120, 215);
+	
+	padding-right: 5px;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>180</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel{
+	color: black;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 20px;
+	color: white;
+}</string>
+   </property>
+   <property name="text">
+    <string>Telefone:</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>430</y>
+     <width>351</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+	border: none;
+	border: 1px solid rgb(173, 173, 173);
+	background-color:rgb(225, 225, 225);
+
+	font-family:Arial,Helvetica,sans-serif;
+	
+	color: black;
+	
+	font-size : 20px;
+}</string>
+   </property>
+   <property name="text">
+    <string>Enviar</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="plainTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>381</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPlainTextEdit{
+	border: none;
+	border: 1px solid black;
+	
+	font-family:Arial,Helveti,sans-serif;
+	
+	font-size: 18px;
+
+
+}</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
